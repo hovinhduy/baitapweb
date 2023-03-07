@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>Travel reservation form</h1>
+    <h3>* denotes mandotory</h3>
+    <form action="">
+        
+        <label for="fullName">Full name*</label><br>
+        <input type="text" id="fullName"  placeholder="Fristname Lastname " name="fullName"><br>
+        
+        <label for="email">Your email*</label><br>
+        <input type="email" id="email"  placeholder="EMAIL_ADDRESS" name="email"><br>
+
+        <label for="selectTour">Select Your Package*</label><br>
+        <select id="selectTour">
+            <option>Goa</option>
+            <option>Goa</option>
+            <option>Goa</option>
+        </select>
+        <br>
+
+        <label for="arrivaldate">Arrival date*</label><br>
+        <input type="date" id="arrivaldate" name="arrivaldate"><br>
+
+        <label for="numberOfPersion">Number of persions*</label><br>
+        <input type="number" id="numberOfPersion" name="numberOfPersion"><br>
+
+        <div>
+            <label for="">What would you want to avail*</label><br>
+            <p>Boarding <input type="checkbox"></p>
+            <p>Fooding <input type="checkbox"></p>
+            <p>Sight seeing <input type="checkbox"></p>
+        </div>
+        <label for="discount">Discount Coupon code:</label> <br>
+        <input id="discountCode" name="discountCode"  placeholder="UNKNOWN_TYPE " type="text"> <br>
+        
+        <label for="term">Term and conditions</label>
+        <p><input type="radio" id="agree" name="agree"> I agree</p>
+        <p><input type="radio" id="disagree" name="disagree"> I disagree</p>
+        <input type="button" value="Complete reservation">
+    </form>
+</body>
+</html>
