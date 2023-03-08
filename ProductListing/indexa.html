@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #wrapper {
+            display: flex;
+
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        #menu-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 100%;
+            height: 65px;
+        }
+        
+        #left {
+            display: flex;
+            justify-content: space-around;
+            width: 260px;
+        }
+        
+        #right {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 360px;
+        }
+        
+        #menu1 {
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        
+        #left1 {
+            display: flex;
+            justify-content: space-around;
+            width: 540px;
+            height: 55px;
+        }
+        #right1 {
+            display: flex;
+            align-items: center;
+            width: 390px;
+            height: 55px;
+           
+        }
+        #right1div{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: #f3f4f6;
+            width: 155px;
+            height: 55px;
+            font-size: 25px;
+            color: #354154;
+        }
+        .hover{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #83c0a7;
+            font-size: 23px;
+            width: 180px;
+            height: 55px;
+            border-radius: 5px;
+        }
+        .hover:hover {
+            background-color: rgb(69, 157, 122);
+            color:  white;
+
+
+        }
+       
+    </style>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="menu-container">
+            <div id="left">
+                <div>Home</div>
+                <div>Offers</div>
+                <div>Our story</div>
+                <div>Blog</div>
+            </div>
+            <div id="logo">
+                <img src="logo.png" alt="">
+            </div>
+            <div id="right">
+                <form>
+                    <input type="text" placeholder="search product...">
+                </form>
+                <img src="Button 1 (1).png" alt="">
+                <img src="Button 1.png" alt="">
+            </div>
+        </div>
+        <div id="banner">
+            <img src="banner.png" alt="">
+        </div>
+        <div id="menu1">
+            <div id="left1">
+                <div class="hover" id="allproduct">All product</div>
+                <div class="hover" id="face">Face</div>
+                <div class="hover" id="face">Body</div>
+            </div>
+            <div id="right1">
+                <form>
+                    <input type="text"  placeholder="search product...">
+                </form>
+                <div id="right1div">Sort by</div>
+            </div>
+        </div>
+        
+    </div>
+
+
+</body>
+
+</html>
