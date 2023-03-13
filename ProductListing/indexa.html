@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
   <link href='https://unpkg.com/css.gg@2.0.0/icons/css/sort-az.css' rel='stylesheet'>
+  <link href='https://unpkg.com/css.gg@2.0.0/icons/css/mail.css' rel='stylesheet'>
   <title>Document</title>
   <style>
     #wrapper {
@@ -17,6 +18,7 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      width: 100%;
     }
 
     #menu-container {
@@ -110,6 +112,9 @@
     .container {
       width: 100%;
       margin: 50px auto;
+      margin-left: 135px;
+
+
 
     }
 
@@ -117,6 +122,7 @@
       display: grid;
       grid-template-columns: auto auto auto auto;
       padding: 15px;
+      width: 1300px;
 
 
     }
@@ -171,6 +177,11 @@
       text-align: right;
     }
 
+    .content .imga {
+      text-align: right;
+      margin-top: -40px;
+    }
+
     .chon {
 
       display: flex;
@@ -201,12 +212,12 @@
 
     .header_search_button {
       position: absolute;
-    top: 6px;
-    right: 317px;
-    border: none;
-    outline: none;
-    background: transparent;
-    cursor: pointer;
+      top: 6px;
+      right: 317px;
+      border: none;
+      outline: none;
+      background: transparent;
+      cursor: pointer;
     }
 
     .search_bar {
@@ -227,23 +238,178 @@
 
     .header_search {
       position: absolute;
-    top: 3px;
-    right: 345px;
-    border: none;
-    outline: none;
-    background: transparent;
-    cursor: pointer;
+      top: 3px;
+      right: 345px;
+      border: none;
+      outline: none;
+      background: transparent;
+      cursor: pointer;
     }
-    #banner{
+
+    #banner {
       position: relative;
     }
+
     .text {
       position: absolute;
-    top: 170px;
-    left: 327px;
-    transform: translate(-50%, -50%);
-    color: #323842;
-}
+      top: 170px;
+      left: 327px;
+      transform: translate(-50%, -50%);
+      color: #323842;
+    }
+
+    .south {
+      background-color: #1d2128;
+      height: 435px;
+      margin-top: 100px;
+    }
+
+    .menu2 {
+      display: flex;
+      margin: 0px 9.6875rem;
+      padding: 0.3125rem;
+      width: 100%;
+      min-width: 1200px;
+      align-items: flex-start;
+
+    }
+
+    .xyz {
+      width: 12.625rem;
+      padding: 0.3125rem;
+      box-sizing: border-box;
+    }
+
+    .xyz1 {
+      padding: 0.3125rem;
+      box-sizing: border-box;
+      width: 450px;
+      margin-left: 175px;
+    }
+
+
+    .tieude {
+      color: #e3e6eb;
+      font-size: 20px;
+      font-weight: 600;
+      margin-bottom: 30px;
+      margin-top: 76px;
+    }
+
+    .abc {
+      text-decoration: none;
+      display: block;
+      color: rgba(0, 0, 0, .65);
+      list-style-type: none;
+      margin: 0 0 1rem;
+      padding: 0;
+      color: #e3e6eb;
+
+    }
+
+    .abc1 {
+      display: flex;
+      align-items: center;
+      margin-bottom: 2rem;
+      font-size: 15px;
+
+    }
+
+    #content {
+      color: #e3e6eb;
+      font-size: 18px;
+    }
+
+    .tieude1 {
+      color: #e3e6eb;
+      font-size: 27px;
+      font-weight: 600;
+      margin-bottom: 30px;
+      margin-top: 76px;
+    }
+
+    .xyz1 form {
+      position: relative;
+      display: flex;
+      justify-content: space-around;
+      flex-direction: column;
+
+    }
+
+    .site-btn {
+      border: none;
+      color: white;
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+      border-left: none;
+      top: 174px;
+      right: -23px;
+      width: 100px;
+      height: 50px;
+      position: absolute;
+      background-color: #459d7a;
+    }
+
+    .email {
+      position: relative;
+      height: 46px;
+      width: 429px;
+      border: 1px solid #e1e1e1;
+      border-radius: 10px;
+      padding-left: 30px;
+      color: #666666;
+      background-color: #1d2128;
+      z-index: 0;
+      font-size: 22px;
+    }
+
+    .gg-mail {
+      z-index: 1;
+      top: 31px;
+      overflow: hidden;
+      transform: scale(var(--ggs, 1));
+      position: relative;
+      width: 18px;
+      border-radius: 2px;
+      right: -8px;
+      color: white;
+    }
+
+    select#ngonngu {
+      width: 130px;
+      height: 35px;
+      border-radius: 5px;
+      background-color: #1d2128;
+      color: white;
+      border: 1px solid white;
+
+    }
+
+    .mxh {
+      margin-top: 35px;
+      display: flex;
+      justify-content: space-around;
+      width: 130px;
+    }
+
+    .nam {
+      display: flex;
+      align-items: center;
+      width: 366px;
+      color: white;
+      margin-top: 35px;
+    }
+
+    .nam1 {
+      margin-right: -29px;
+    }
+
+    ul.nam2 {
+      display: flex;
+      justify-content: space-around;
+      width: 200px;
+      margin-right: 0;
+    }
   </style>
 </head>
 
@@ -272,9 +438,9 @@
     <div id="banner">
       <img src="banner.png" alt="">
       <div class="text">
-      <h2 style="font-size: 55px; margin-bottom: 0;">Gift for your skin</h2>
-    <div style="font-size: 20px; padding-top: 0;">Aliquip fugiat ipsum nostrud ex et eu incidunt</div>
-    <div style="font-size: 20px; padding-top: 0;">quis minim dolore excepteur voluptete</div>
+        <h2 style="font-size: 55px; margin-bottom: 0;">Gift for your skin</h2>
+        <div style="font-size: 20px; padding-top: 0;">Aliquip fugiat ipsum nostrud ex et eu incidunt</div>
+        <div style="font-size: 20px; padding-top: 0;">quis minim dolore excepteur voluptete</div>
       </div>
     </div>
     <div id="menu1">
@@ -519,12 +685,73 @@
         <div>4</div>
         <div><img src="Button 1 (6).png" alt=""></div>
       </div>
+      <div class="south">
+        <div class="menu2">
+          <div class="xyz">
+            <div class="tieude">About</div>
+            <ul class="abc">
+              <li class="abc1">Home</li>
+              <li class="abc1">Shop</li>
+              <li class="abc1"> Our story</li>
+              <li class="abc1">Blogs</li>
+              <li class="abc1">
+                <select name="" id="ngonngu">
+                  <option value="">English</option>
+                  <option value="">Vietnamese</option>
+                </select>
+              </li>
+            </ul>
+          </div>
+          <div class="xyz">
+            <div class="tieude">Help</div>
+            <ul class="abc">
+              <li class="abc1">Shipping & Returns</li>
+              <li class="abc1">Track Order</li>
+              <li class="abc1"> FAQs</li>
+            </ul>
+          </div>
+          <div class="xyz">
+            <div class="tieude">Contact</div>
+            <ul class="abc">
+              <li class="abc1">Phone:</li>
+              <li class="abc1">(+1) 123 456 7893</li>
+              <li class="abc1">Email:</li>
+              <li class="abc1">name@email.com</li>
+            </ul>
+          </div>
+          <div class="xyz1">
+            <form action="#">
+              <div class="tieude1">Receive new promotions</div>
+              <div id="content">Duis ea tempor commodo amet reprehende</div>
+              <i class="gg-mail"></i>
+              <input class=" email" type="text" placeholder="Input your email">
+              <button type="submit" class="site-btn">Subscribe</button>
+            </form>
+            <div class="mxh">
+              <img src="Twitter 1.png" alt="">
+              <img src="Facebook 1.png" alt="">
+              <img src="LinkedIn 1.png" alt="">
+              <img src="YouTube 1.png" alt="">
+            </div>
+            <div class="nam">
+              <div class="nam1">© 2022 Brand, Inc.</div>
+              <ul class="nam2">
+                <li>Privacy</li>
+                <li>Terms</li>
+                <li>Sitemap</li>
+
+              </ul>
+
+
+            </div>
+          </div>
+        </div>
 
 
 
-  </div>
+      </div>
 
 
-</body>
+    </body>
 
 </html>
