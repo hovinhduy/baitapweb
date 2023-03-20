@@ -1,0 +1,264 @@
+#wrapper {
+    display: flex;
+    justify-content: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#container {
+    display: flex;
+    justify-content: space-between;
+    width: 1500px;
+    height: 900px;
+}
+
+
+
+#right {
+    width: 500px;
+    background-color: aqua;
+}
+
+#left {
+    width: 100px;
+    height: 870px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#left_above {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#below {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.item {
+    width: 32px;
+    margin-top: 50px;
+}
+
+#setting {
+    margin-top: 36px;
+}
+#center {
+    width: 900px;
+    
+}
+.a{
+    width: 830px;
+}
+.abc{
+    margin-top: -14px;
+    margin-bottom: 40px;
+}
+.abc1{
+    font-size: 24px;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+.abc1_2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    height: 35px;
+    border: 1px solid red;
+    border-radius: 20px;
+}
+.abc1_2_1{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: red;
+}
+.abc1_2_2{
+    margin-left: 15px;
+    font-size: 20px;
+    color: red;
+}
+
+.abc3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 360px;
+}
+.abc3_1{
+    display: flex;
+    align-items: center;
+    width: 80px;
+    height: 30px;
+    background-color: #e34d73;
+    border-radius: 20px;
+}
+.gg-profile {
+    margin-left: 5px;
+    display: block;
+    box-sizing: border-box;
+    /* border: 2px solid; */
+    border-radius: 100px;
+    overflow: hidden;
+    transform: scale(var(--ggs,1));
+    width: 15px;
+    height: 15px;
+    position: relative;
+    background-color: white;
+}
+.gg-profile::before {
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 5px;
+    width: 5px;
+    height: 5px;
+    background-color: #e34d73;
+}
+.gg-profile::after {
+    border-radius: 181px;
+    top: 9px;
+    left: 3px;
+    width: 9px;
+    height: 4px;
+    background-color: #e34d73;
+}
+.abc3_1_1{
+    font-size: 10px;
+    color: white;
+    margin-left: 5px;
+}
+.abc3_2{
+    width: 130px;
+    display: flex;
+    align-items: center;
+}
+.abc3_2_1{
+   margin-top: 4px;
+}
+.abc3_2_2{
+    margin-left: 11px;
+}
+.abcd{
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.abcd1{
+    
+}
+
+.abcd2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    width: 160px;
+    height: 36px;
+    border-radius: 3px;
+    position: absolute;
+    top: 31px;
+    left: 102px;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: #757679;
+    font-size: 15px;
+    text-align: center;
+}
+.abcd2_1{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #1dd75b;
+
+}
+.abcd3{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    position: absolute;
+    width: 40px;
+    height: 36px;
+
+    top: 15px;
+    right: 25px;
+    border-radius: 3px;
+}
+.abcd3_1{
+    width: 30px;
+    height: 25px;
+    position: absolute;
+    top: -2px;
+    
+}
+.abcda{
+width: 830px;
+height: 163px;
+display: flex;
+justify-content: space-between;
+
+}
+.abcda1{
+    position: relative;
+
+}
+.abcda1_2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100px;
+    height: 25px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 3px;
+    font-size: 13px;
+
+}
+.abcda1_2_1{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #1dd75b;
+
+}
+
+.img{
+    width: 30px;
+    height: 25px;
+}
+.abcda1_3_1{
+    position: absolute;
+    top: 8px;
+    right: 8px;
+}
+.abcdb{
+    margin-left: 173px;
+    width: 490px;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+}
+.abcdb4{
+    width: 130px;
+ 
+    background-color: #f22128;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+}
+
